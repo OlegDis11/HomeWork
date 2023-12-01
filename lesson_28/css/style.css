@@ -1,0 +1,37 @@
+.some-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.one {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: line-through;
+    font-weight: 300
+    
+}
+
+.two {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.three {
+    font-size: 20px;
+    color: blueviolet;
+    text-shadow: 1px 0 0px rgb(195, 143, 245);
+    word-spacing: 30px; 
+    text-decoration: wavy;
+}
+
+.four {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-decoration: double;
+    
+}
