@@ -1,0 +1,21 @@
+.block {
+    background: #da6d6d;
+padding: 50px 70px;
+margin: 30px 50px;
+}
+
+.block-1 {
+    background: #da6d6d;
+margin:50px;
+}
+
+
+.inline {
+    background: rgb(49, 153, 87);
+    
+}
+
+
+.img {
+padding: 100px;
+}

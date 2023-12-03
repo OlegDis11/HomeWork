@@ -1,0 +1,33 @@
+
+
+.block,
+.inline {
+    background: #e6bebe;
+}
+
+.block {
+padding: 20px;
+margin: 20px;
+}
+
+.block {
+/* opacity: 0.3;
+visibility: hidden; */
+
+width: 200px;
+height: 100px;
+overflow: scroll;
+
+}
+
+
+.inline {
+    opacity: .3;
+    
+}
+
+
+.img {
+    opacity: .3;
+    
+}

@@ -1,0 +1,27 @@
+
+
+.block,
+.inline {
+    background: #e6bebe;
+}
+
+.block {
+padding: 20px;
+margin: 20px;
+}
+
+.block {
+display: inline-block;
+width: 200px;
+}
+
+
+.inline {
+    display: block;
+    
+}
+
+
+.img {
+   display: block;
+}
