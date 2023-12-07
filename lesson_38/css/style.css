@@ -1,0 +1,40 @@
+body {
+    font-size: 40px;
+    background: #0c0c0c;
+    margin: 20px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    border: 20px solid #fff;
+    min-height: 50vh;
+    box-shadow: 0 0 3.75rem -0.625rem #000;
+}
+
+.flexbox_item {
+    border: 20px solid #c79090;
+}
+.flexbox_item:nth-child(2) .flexbox_content {
+    padding: 60px 40px;
+}
+.flexbox_content {
+    border: none;
+    padding: 40px;
+    background: linear-gradient(#de8181,#ca5858);
+}
+
+/* -------------------------------------------------------- */
+
+.flexbox {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap-reverse;
+}
+

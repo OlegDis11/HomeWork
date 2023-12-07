@@ -1,0 +1,28 @@
+body {
+    font-size: 40px;
+    background: #f6f1f1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.6vw 3vw rgb(31, 29, 29);
+    border-radius: 2vw;
+    background: #d3b7b7;
+}
+
+.block {
+    background: url("../kot.webp") 50% 50%/ contain no-repeat, url("../kot2.webp") 100% 0 no-repeat;
+
+    /* background-color: #fff; */
+    background-image: url("../kot.webp"),url("../kot2.webp");
+    /* background-image: radial-gradient(  rgb(219, 146, 146), rgb(114, 114, 231)); */
+    background-position: 50% 50%, 0 0;
+    /* background-attachment: scroll; */
+    /* block-size: 200px auto; */
+
+}
