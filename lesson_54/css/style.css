@@ -1,0 +1,36 @@
+body {
+    background: #433f3f;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.text__box {
+    background: #fff;
+    max-width: 1000px;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+.text__box {
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.text__box-circle {
+    background: #cf2121;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.text__box-circle {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    z-index: 1;
+}

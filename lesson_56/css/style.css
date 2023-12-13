@@ -1,0 +1,64 @@
+.container {
+    min-height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    background: #e36b6b;
+    width: 50%;
+    border-radius: 2em;
+    padding: 3em;
+    display: block;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 2em;
+    margin-bottom: 50px;
+    font-size: inherit;
+}
+
+
+/* ============================================================= */
+.button:hover {
+    background: #940404;
+}
+
+.button:active {
+    background: #e6bc49;
+}
+
+.button:focus {
+    box-shadow: 0 0 20px #411212;
+}
+
+input:focus {
+    box-shadow: 0 0 20px #b51616;
+}
+
+.list__item:first-child {
+    color: #b51616;
+}
+
+.list__item:nth-child(4) {
+    color: aqua;
+}
+
+.list__item:last-child {
+    color: rgb(2, 117, 79);
+}
+
+.block__item:nth-child(odd) {
+    color: #e36b6b;
+}
+
+.child__item:nth-child(even) {
+    color: #3229b3 
+}
