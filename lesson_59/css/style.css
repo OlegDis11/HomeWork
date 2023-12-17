@@ -1,0 +1,47 @@
+body {
+    background: #232121;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #4c4848;
+}
+
+.box {
+    background: #f7f4f4;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.box {
+    animation: move-box 8s 1s infinite alternate-reverse;
+
+}
+
+@keyframes move-box {
+    0% {
+        left: 0px;
+    }
+    10% {
+        border-radius: 10%;
+        background-color: rgb(34, 224, 160);
+    }
+    40% {
+        border-radius: 20%;
+        background-color: #4c4848;
+    }
+    50%{
+        border-radius: 50%;
+        background-color: #4c4848;
+    }
+    100% {
+        left: calc(100% - 200px);
+    }
+}
